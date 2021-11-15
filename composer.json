@@ -1,0 +1,36 @@
+{
+  "name": "rexshijaku/sql-to-ci-builder",
+  "description": "SQL to Codeigniter Query Builder",
+  "keywords": [
+    "sql-to-builder",
+    "sql-to-codeigniter",
+    "codeigniter",
+    "codeigniter-database",
+    "active-record"
+  ],
+  "homepage": "https://github.com/rexshijaku/sql-to-ci-builder",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rexhep Shijaku",
+      "email": "rexhepshijaku@gmail.com",
+      "homepage": "https://github.com/rexshijaku"
+    }
+  ],
+  "require": {
+    "greenlion/php-sql-parser": "^4.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "RexShijaku\\SQLToCIBuilder\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RexShijaku\\SQLToCIBuilder\\Test\\": "tests/cases/"
+    }
+  }
+}
